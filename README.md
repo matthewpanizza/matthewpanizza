@@ -18,7 +18,7 @@ A system of embedded microcontrollers that relays electrical information from th
 - [DecentralizedLV-Boards](https://github.com/matthewpanizza/DecentralizedLV-Boards) - Submodule used as an API for inter-board communication and a platform-agnostic CAN controller.
 - [DecentralizedLV-DashController](https://github.com/matthewpanizza/DecentralizedLV-DashController) - Board which takes input from the driver and controls lights, drive mode, and instrument cluster.
 - [DecentralizedLV-LPDRV](https://github.com/matthewpanizza/DecentralizedLV-LPDRV) - Low Power Driver board which drives lights, pumps, and other accessories based on CAN data.
-- [DecentralizedLV-LPDRV](https://github.com/matthewpanizza/DecentralizedLV-ULPDRV) - Ultra Low Power Driver board, a miniature LPDRV with pin passthroughs for SPI and UART peripherals.
+- [DecentralizedLV-ULPDRV](https://github.com/matthewpanizza/DecentralizedLV-ULPDRV) - Ultra Low Power Driver board, a miniature LPDRV with pin passthroughs for SPI and UART peripherals.
 - [DecentralizedLV-HVController](https://github.com/matthewpanizza/DecentralizedLV-HVController) - High Voltage Controller board which handles the battery management system and motor inverter.
 - [DecentralizedLV-Sense](https://github.com/matthewpanizza/DecentralizedLV-Sense) - Sensor board. A legacy version of the Dashboard Controller with slightly less functionality.
 
