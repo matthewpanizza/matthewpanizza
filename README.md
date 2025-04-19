@@ -38,3 +38,8 @@ A tool for analyzing received CAN Bus frames and emulating CAN Bus messages. Com
 An iOS app paired with a Bluetooth Low Energy (BLE) microcontroller which monitors power usage on an electric skateboard. The microcontroller reads voltage, current, speed and other parameters and relays them over BLE to a companion app on an iPhone. There is also an Apple Watch companion app which received relayed information from the iPhone.
 
 <img height="150" src="Pictures/SkateInfoView.jpg">
+
+### [WaterNet23](https://github.com/matthewpanizza/WaterNet23)
+A fleet of autonomous water surface vehicles designed as part of the NC State ECE Senior Design class for taking water quality measurements on aquaculture ponds. This project also includes an offshore control hub with multi-way redundant wireless communication for receiving vehicle telemetry, controlling speed manually and sending GPS waypoints for autonomous movement.
+
+<img height="200" src="https://github.com/matthewpanizza/WaterNet23/raw/main/Pictures/VehicleFrontCrop.png">
