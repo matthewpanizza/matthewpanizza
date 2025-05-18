@@ -13,7 +13,7 @@ I enjoy brainstorming new ways of using microcontollers and automating things in
 
 
 ## Projects to Check Out
-### [Decentralized Low Voltage System](https://github.com/matthewpanizza/DecentralizedLV-Boards)
+### [Decentralized Low Voltage System](https://github.com/matthewpanizza/DecentralizedLV-Documentation)
 A system of embedded microcontrollers that relays electrical information from the driver to accessory components over CAN Bus. Replaces large accessory wiring harnesses with a four wire (two power + two CAN) system.
 - [DecentralizedLV-Boards](https://github.com/matthewpanizza/DecentralizedLV-Boards) - Submodule used as an API for inter-board communication and a platform-agnostic CAN controller.
 - [DecentralizedLV-DashController](https://github.com/matthewpanizza/DecentralizedLV-DashController) - Board which takes input from the driver and controls lights, drive mode, and instrument cluster.
@@ -34,10 +34,10 @@ A tool for analyzing received CAN Bus frames and emulating CAN Bus messages. Com
 
 <img height="200" src="https://github.com/matthewpanizza/CANAnalyzer/raw/main/Pictures/ClusterError.jpg">
 
-### [SkateInfoView](https://github.com/matthewpanizza/SkateInfoView)
-An iOS app paired with a Bluetooth Low Energy (BLE) microcontroller which monitors power usage on an electric skateboard. The microcontroller reads voltage, current, speed and other parameters and relays them over BLE to a companion app on an iPhone. There is also an Apple Watch companion app which received relayed information from the iPhone.
+### [Solar Maximum Power Point Tracker (MPPT)](https://github.com/matthewpanizza/SolarPack-MPPT)
+An upgraded version of the [Texas Instruments MPPT Evaluation Board](https://www.ti.com/tool/TIDM-SOLAR-DCDC) which allows for charging of a 400V battery from a 100V+ solar array. The original hardware was capable of boosting 200-300VDC to 400VDC at 500W, while the new hardware supports boosting from 100VDC-300VDC at up to 1500W. This project upgraded the boost conversion hardware, main DSP microcontroller (from F2803X to F28069M) and added CAN Bus for providing power telemetry.
 
-<img height="150" src="Pictures/SkateInfoView.jpg">
+<img height="225" src="https://github.com/matthewpanizza/SolarPack-MPPT/raw/main/Pictures/MPPT_V1.JPG">
 
 ### [WaterNet23](https://github.com/matthewpanizza/WaterNet23)
 A fleet of autonomous water surface vehicles designed as part of the NC State ECE Senior Design class for taking water quality measurements on aquaculture ponds. This project also includes an offshore control hub with multi-way redundant wireless communication for receiving vehicle telemetry, controlling speed manually and sending GPS waypoints for autonomous movement.
